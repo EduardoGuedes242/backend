@@ -13,4 +13,9 @@ public class HelloWord {
     return "Hello Word";
   }
 
+  @GetMapping("/ping")
+  public String helloWordPing(){
+    return "Hello Pong";
+  }
+
 }
